@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 300px;
+  height: 600px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.text-container {
+  /* border: 1px solid black; */
+  width: 85%;
+  /* height: fit-content; */
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+button {
+  position: absolute;
+  top: 182px;
+  align-self: flex-end;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+.back {
+  padding: 20px 0 0;
+  height: 30px;
+  width: 30px;
+  padding: 0 auto;
+  text-align: center;
+}
+.back a {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  line-height: 30px;
+}
+.back a img {
+  width: 30px;
+  height: 30px;
+}
+.text-item1 {
+  padding: 50px 0 0;
+  text-align: center;
+}
+.text-item2 {
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: start;
+}
+.text-item2 label {
+  font-size: 10px;
+}
+.text-item2 input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(21, 21, 139);
+  outline: none;
+}
+
+.tag-container {
+  /* border: 1px solid black; */
+  width: 100%;
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.tag-item {
+  display: inline-block;
+  height: 1em;
+  width: max-content;
+  padding: 0 10px 7px;
+  background-color: rgb(207, 218, 239);
+  border-radius: 9px;
+  text-align: center;
+  margin: 0 10px 7px 0;
+}
+
+.button-container {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 20px;
+}
+.button-item2 {
+  background-color: rgb(21, 21, 139);
+  border-radius: 7px;
+  height: 30px;
+  width: 80%;
+  padding: 0 auto;
+  text-align: center;
+}
+.button-item2 a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+  line-height: 30px;
+}
