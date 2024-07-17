@@ -1,5 +1,5 @@
 # Teambl
-Fromtend 담당
+Frontend 담당
 
 ## 1. 회원가입 화면
 ### 진행 상황
